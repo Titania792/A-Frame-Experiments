@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <-- llamamos a la libreria A-frame -->
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+    <body>
+        <-- entorno donde renderizar el A-frame -->
+        <a-scene background="color:#5fa0cf">
+
+            <-- objeto a renderizar -->
+            <a-sphere
+                color="yellow"
+                position="0 4 -10">
+            </a-sphere>
+
+            <a-torus-knot
+                color="white"
+                position="0 4 -10"
+                rotation="2 1 9"
+                arc="360"
+                p="5"
+                q="7"
+                radius="2"
+                radius-tubular="0.08">
+            </a-torus-knot>
+
+            <a-cylinder
+            color="green"
+            position="0 -1.5 -10"
+            height="10"
+            radius="0.2">
+            </a-cylinder>
+
+            <a-icosahedron
+            color="green"
+            position="1 -1 -10"
+            rotation="2 25 2"
+            radius="1">
+            </a-icosahedron>
+
+            <a-icosahedron
+            color="green"
+            position="-1 -3 -10"
+            rotation="2 -25 2"
+            radius="1">
+            </a-icosahedron>
+        </a-scene>
+    </body>
+</html>
