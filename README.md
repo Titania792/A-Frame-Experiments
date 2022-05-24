@@ -1,2 +1,2 @@
 # A-Frame-Experiments
-Learning and practicing a little bit about AR/VR
+Learning and practicing a little bit about VR
